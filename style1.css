@@ -1,0 +1,544 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,400;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+
+
+
+*{ margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to right top, #ec4a11, #f16900, #f48500, #f49f00, #f3b800, #f3b500, #f3b300, #f3b000, #f39100, #f07000, #ea4b12, #e00f21);
+}
+.container {
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header {
+
+   background-image: url(./imagenes/bee-170551_1280.jpg);
+   background-position: center top;
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 120vh;
+   display: flex;
+   align-items: center;
+}
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo { 
+    
+    font-size: 24px;
+    color: #CF2D3A;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.menu .navmiel ul li {
+     position: relative;
+     float: left;
+
+}
+
+.menu .navmiel ul li {
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(226, 223, 36);
+    display: block;
+}
+
+.menu .navmiel ul li a:hover{
+color: #ebe711;
+}
+
+#menu {
+    display: none;
+}
+
+ .menu-icono {
+width: 25px;
+ }
+
+ .menu img {
+    width: 25px;
+ }
+ .menu label {
+ cursor: pointer;
+ display: none;
+
+ }
+ .header-txt {
+    text-align: center;
+    margin-bottom: 45px;
+ }
+
+.header-txt h1, span, h3 {
+ font-size: 110px;
+ letter-spacing: 10px;
+ text-transform: uppercase;
+ font-family: 'Bebas Neue', cursive;
+ color: #e00f21;
+ margin-bottom: 15px;
+}
+
+
+.header-txt h3 {
+    letter-spacing: 15px; 
+}
+
+.header-txt span {
+    font-size: 25px;
+
+}
+
+.header-txt p {
+ color: rgb(250, 250, 250);
+ padding: 0 250px;
+ margin: 25px 0;
+ font-size: 20px;
+ font-family: 'Lobster Two', cursive;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 25px;
+    background-color: #e6b61a;
+    color: rgb(238, 238, 238);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 25px 0;
+    border: 0;
+}
+
+.btn-1:hover {
+    background-color: rgb(248, 76, 46);
+}
+
+.header-dir {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;  
+    align-items: baseline;
+    
+}
+
+.dir h3 {
+    font-size: 15px;
+    
+
+}
+
+.dir p { 
+    font-size: 15px;
+    color: aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 0cqmin;
+    justify-content: space-around;
+    
+
+}
+
+.welcome {
+    display: flex;
+}
+
+.welcome-1 { background-image: url(imagenes/lavanda\ y\ abejas.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+
+    
+}
+
+.welcome-2 {
+    width: 50%;
+    padding: 250px 250px 150px 100px;
+    background-color: #f07000;
+
+    
+}
+
+
+h2 {
+    font-size: 90px;
+    line-height: 100px;
+    color: bisque;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 20px;
+    
+}
+
+p {
+    font-size: 16px;
+    color: bisque;
+    margin: 25px 0;
+}
+
+.b1 {
+    color: #dd1c29;
+}
+
+.services {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.services-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr {
+    border: 1px solid #CF2D3A;
+    width: 80px;
+}
+
+.services-txt p {
+    padding: 50px 150px;
+}
+.services-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 45px 0;
+}
+
+.services-1 {
+background-color: rgb(204, 158, 6);
+padding: 35px 25px;
+margin: 0 10px;
+border-radius: 15px;
+}
+.services-1 img {
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+.services-1 h3 {
+    font-size: 25px;
+    color: bisque;
+}
+
+.services-1 a {
+    color: #e00f21;
+    font-size: 16px;
+}
+
+.services-2 {
+    background-color: #f1cd2b;
+    padding: 35px 25px;
+    margin: 0 10px;
+    border-radius: 15px;
+}
+.services-2 img {
+    width: 200px;
+    margin-bottom: 15px;
+}
+.services-2 h3 {
+    font-size: 25px;
+    color: bisque;
+}
+.services-2 a{
+    color: #e00f21;
+    font-size: 16px;
+}
+.services-3 {
+    background-color: #ce9428;
+    padding: 35px 25px;
+    margin: 0 10px;
+    border-radius: 15px;
+
+}
+.services-3 img {
+    width: 200px;
+    margin-bottom: 15px;
+}
+.services-3 h3 { 
+    font-size: 25px;
+    color: bisque;
+
+}
+.services-3 a {
+    color: #e00f21;
+    font-size: 16px;
+}
+
+.prices {
+    display: flex;
+}
+
+.prices-1 {
+    width: 50px;
+    padding: 150px 250px 150px 100px;
+    background-color: #f07000;
+}
+
+table {
+    margin: 50px 0;
+    width: 100px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+tr {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #f8eaeb ;
+    margin-bottom: 20 px;
+}
+
+th {
+    color: aliceblue;
+    padding-bottom: 15px;
+}
+
+td {
+    color: #e00f21;
+}
+.prices-2 {
+    background-image: url(imagenes/proceso\ apicultura\ 3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 800%;
+}
+
+.personal {
+    padding: 100px 0;
+    text-align: center;
+}
+.personal-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.personal-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+.personal-1 {
+    text-align: center;
+}
+
+.personal-1 img {
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.personal-1 h3 {
+  font-size: 22px;
+}
+
+.personal-1 p {
+    padding: 0 50px;
+}
+
+.personal-1 a {
+    color: #d3940c;
+}
+
+.personal-2 {
+    text-align: center;
+}
+.personal-2 img {
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+.personal-2 h3 {
+    font-size: 22px;
+}
+.personal-2 p {
+    padding: 0 50px;
+}
+.personal-2 a {
+    color: #d39510;
+}
+
+.footer-bg {
+    background-image: url(imagenes/La\ importancia\ de\ ellas\ 1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.campo-1 {
+    margin-bottom: 15px;
+}
+.campo {
+    margin: 5px;
+    padding: 20px 15px;
+    width: 250px;
+    background-color: #fdfb64;
+    border: 1px solid #CF2D3A;
+    outline: none;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 14px;
+}
+
+textarea {
+    width: 520px !important;
+}
+
+.footer-txt {
+    text-align: center;
+    padding: 10px;
+    background-color: #f07000;
+}
+
+
+
+ @media (max-width:991px) {
+    .menu {
+        padding: 20px;
+    }
+    .menu label{
+        display: initial;
+    }
+
+    .menu .navmiel {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+    background-color: #f07000;
+    display: none;
+    }
+
+    .menu .navmiel ul li {
+        width: 100%;
+    }
+    
+    #menu:checked ~ .navmiel {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+    }
+    
+    .header-content {
+        padding: 80px 30px 50px 30px;
+    }
+
+    .header-txt {
+     margin-bottom: 15px;
+
+    }
+
+    .header-txt h1 {
+        font-size: 90px;
+    }
+    
+    .header-txt p {
+        padding: 0;
+        margin: 15px 0;
+    }
+
+    .header-dir {
+        flex-direction: column;
+    }
+    .dir p {
+        font-size: 18px;
+    }
+    .welcome-1 {
+        display: none;
+
+    }
+    welcome-2 {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 70px;
+        line-height: 80px;
+    }
+    
+    p {
+        margin: 15px 0;
+    }
+
+    .services {
+        padding: 30px;
+    }
+    .services-txt p {
+        padding: 0;
+    }
+    .services-group {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .services-1 {
+        margin: 0 0 20px 0;
+    }
+
+    .prices {
+        flex-direction: column;
+    }
+
+    .prices-1 {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+    table {
+        margin: 25px 0 0 0;
+    }
+    .prices-2 {
+        display: none;
+    }
+    .personal {
+        padding: 30px;
+    }
+
+    .personal-group {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .personal-1 {
+        margin-bottom: 25px;
+    }
+ .footer-bg {
+    padding: 30px;
+ }
+ textarea {
+    width: 250px !important;
+       }
+ }
+
+
+
